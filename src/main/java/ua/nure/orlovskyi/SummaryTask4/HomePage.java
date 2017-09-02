@@ -16,7 +16,7 @@ import ua.nure.orlovskyi.SummaryTask4.service.RentService;
 /**
  * Servlet implementation class HomePage
  */
-@WebServlet(name = "HomePage", urlPatterns = { "/HomePage" } )
+@WebServlet(name = "HomePage", urlPatterns = { "/home" } )
 public class HomePage extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

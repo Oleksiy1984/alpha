@@ -27,7 +27,7 @@
 
                         <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
                             
-                        <form id="loginform" class="form-horizontal" role="form" action = "Login" method="post">
+                        <form id="loginform" class="form-horizontal" role="form" action = "/final/login" method="post">
                                     
                             <div style="margin-bottom: 25px" class="input-group">
                                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -55,7 +55,7 @@
 
                                     <div class="col-sm-12 controls">
                                       <!--  <a id="btn-login" href="#" class="btn btn-success">Login  </a>-->
-                                      <button id="btn-login" type="submit" name="login" value="Login" class="btn btn-success">Login</button>
+                                      <button id="btn-login" type="submit" class="btn btn-success">Login</button>
                    
 
                                     </div>

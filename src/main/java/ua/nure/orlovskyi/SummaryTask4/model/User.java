@@ -12,7 +12,6 @@ public abstract class User {
 		private String mobile;
 		
 		
-		
 		public String getName() {
 			return name;
 		}

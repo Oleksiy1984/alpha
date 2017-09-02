@@ -4,12 +4,27 @@ package ua.nure.orlovskyi.SummaryTask4.model;
 public class Car {
 	private Integer id;
 	private Brand brand;
+	private String model;
 	private CarType carType;
 	private String color;
 	private Double price;
 	private Boolean isAvailable;
 	private String photo;
+	private Transmission transmission;
 	
+	
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public Transmission getTransmission() {
+		return transmission;
+	}
+	public void setTransmission(Transmission transmission) {
+		this.transmission = transmission;
+	}
 	public Integer getId() {
 		return id;
 	}
@@ -54,9 +69,12 @@ public class Car {
 	}
 	@Override
 	public String toString() {
-		return "Car [id=" + id + ", brand=" + brand + ", carType=" + carType + ", color=" + color + ", price=" + price
-				+ ", isAvailable=" + isAvailable + ", photo=" + photo + "]";
+		return "Car [id=" + id + ", brand=" + brand + ", model=" + model + ", carType=" + carType + ", color=" + color
+				+ ", price=" + price + ", isAvailable=" + isAvailable + ", photo=" + photo + ", transmission="
+				+ transmission + "]";
 	}
+
+	
 	
 	
 

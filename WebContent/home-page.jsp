@@ -59,7 +59,7 @@
         <div class="container-fluid home-section">
             <div class="row">
                 <div class="col-md-12 left-align">
-                    <a href="UserLogout" class="btn btn-primary">Logout</a> <br>
+                    <a href="/final/logout" class="btn btn-primary">Logout</a> <br>
              
                 </div>
             </div>

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class UserLogout
  */
-@WebServlet(name = "UserLogout", urlPatterns ="/UserLogout")
+@WebServlet(name = "UserLogout", urlPatterns ="/logout")
 public class UserLogout extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -39,7 +39,7 @@ public class UserLogout extends HttpServlet {
             session.invalidate();
         }
        
-        response.sendRedirect("Login");
+        response.sendRedirect("/final/login");
 	}
 
 	/**

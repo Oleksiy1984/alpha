@@ -16,7 +16,7 @@ import ua.nure.orlovskyi.SummaryTask4.service.SessionService;
 /**
  * Servlet implementation class Login
  */
-@WebServlet(name = "Login", urlPatterns = { "/Login" })
+@WebServlet(name = "Login", urlPatterns = { "/login" })
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -57,12 +57,12 @@ public class Login extends HttpServlet {
         {
             session = request.getSession();
             session.setAttribute("username", login);
-            response.sendRedirect("HomePage");
+            response.sendRedirect("/final/home");
             System.out.println("Login redirect to HomePage ");
         }
         else
         {
-           response.sendRedirect("Login");
+           response.sendRedirect("/final/login");
         }
     }
 	}
